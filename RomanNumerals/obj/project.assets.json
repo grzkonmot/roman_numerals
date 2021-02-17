@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VCXJ63\\source\\repos\\RomanNumerals\\RomanNumerals\\RomanNumerals.vbproj",
+      "projectUniqueName": "C:\\Users\\VCXJ63\\source\\repos\\RomanNumerals\\RomanNumerals\\RomanNumerals.csproj",
       "projectName": "RomanNumerals",
-      "projectPath": "C:\\Users\\VCXJ63\\source\\repos\\RomanNumerals\\RomanNumerals\\RomanNumerals.vbproj",
+      "projectPath": "C:\\Users\\VCXJ63\\source\\repos\\RomanNumerals\\RomanNumerals\\RomanNumerals.csproj",
       "packagesPath": "C:\\Users\\VCXJ63\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\VCXJ63\\source\\repos\\RomanNumerals\\RomanNumerals\\obj\\",
       "projectStyle": "PackageReference",
