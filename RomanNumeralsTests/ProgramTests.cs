@@ -52,6 +52,20 @@ namespace RomanNumeralsTests
 
         }
 
-        
+        [Test]
+        [TestCase("IIII", 4)]
+        [TestCase("IL", 49)]
+        [TestCase("XXXXX", 50)]
+        [TestCase("IC", 99)]
+        [TestCase("LL", 100)]
+        public void ShouldParseRomanStringIntoIntegerWithoutError(string romanValue, int integerValue)
+        {
+            //Arrange & Act
+            int returnedValue = Program.ParseRomanNumeral(romanValue);
+
+            //Assert
+            Assert.AreNotEqual(integerValue, returnedValue);
+        }
+
     }
 }
